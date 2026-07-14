@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="windows.gitignore/normalize.css">
     <link rel="stylesheet" href="windows.gitignore/css/4cols.css">
+    <link rel="stylesheet" href="windows.gitignore/css/2cols.css">
     <link rel="stylesheet" href="windows.gitignore/css/col.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,7 +64,7 @@
     </section>
 
     <section class="section-meals">
-        <ul class="meals-showcase">
+        <ul class="meals-showcase clearfix" >
             <li>
                 <figure class="meal-photo">
                 <img src="assets/1.jpg" alt="food-image">
@@ -85,7 +86,7 @@
                 </figure>
             </li>
         </ul>
-        <ul class="meals-showcase">
+        <ul class="meals-showcase clearfix">
             <li>
                 <figure class="meal-photo">
                 <img src="assets/5.jpg" alt="food-image">
@@ -107,6 +108,33 @@
                 </figure>
             </li>
         </ul>
+    </section>
+
+    <section class="section-steps">
+        <div class="row">
+            <h2>How it works &mdash; Simple as 1,2,3</h2>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_2 steps-box"> 
+                <img src="assets/phone.png" alt="phone-img" class="app-screen">
+            </div>
+            <div class="col span_1_of_2 steps-box">
+                <div class="works-step">
+                    <div>1</div>
+                    <p>Choose plan that fits best for your need and sign up today</p>
+                </div>
+                <div class="works-step">
+                    <div>2</div>
+                    <p>Pay for the plan and download the app</p>
+                </div> 
+                <div class="works-step">
+                    <div>3</div>
+                    <p> You are done start ordering!!</p>
+                </div> 
+                <a href="#" class="btn-app"><img src="assets/app_store.png" alt="app-store"></a>
+                <a href="#" class="btn-app"><img src="assets/google_play.png" alt="google-play"></a>
+            </div>
+        </div>
     </section>
 
 <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
