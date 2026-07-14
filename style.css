@@ -115,6 +115,7 @@ header{
 section{
     padding: 80px 0px;
 }
+
 h2{
     font-weight: 300;
     text-transform: uppercase;
@@ -204,16 +205,12 @@ h3{
     visibility: hidden;
 }
 
-.section-meals{
-    padding: 0;
-}
-
 .meal-photo img:hover{
     transform: scale(1.10);
     opacity: 1; 
 }
 
-.section_feature .long-copy{
+.section_features .long-copy{
     margin-bottom: 30px;
 }
 
@@ -251,17 +248,65 @@ h3{
     font-size: 150%;
 }
 
+.works-step:last-of-type{
+    margin-bottom: 80px ;
+}
+
 .btn-app img{
     height: 50px;
     width: auto;
     margin-right: 10px;
 }
 
-.works-step:last-of-type{
-    margin-bottom: 80px ;
+
+.btn-app:link,
+.btn-app:visited{
+    border: 0;
 }
+
 
 .section-steps{
     background-color: #f4f4f4;
 }
 
+.box img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.city-feature{
+    margin-bottom: 5px;
+}
+
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: orange;
+    font-size: 120%;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+a{
+    color: orange;
+    text-decoration: none;
+    border-bottom: 1px solid orange;
+    padding-bottom: 1px;
+}
+
+a:hover{
+    color: #555;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s,color 0.5s;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
