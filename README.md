@@ -26,14 +26,23 @@ This project helped me understand:
 ## ✨ What's Inside?
 
 🍔 A modern hero section
+
 📱 Responsive layout for different screen sizes
+
 🖼️ Food gallery with hover effects
+
 ⚡ Smooth scrolling navigation
+
 🌍 Featured cities section
+
 💬 Customer testimonials
+
 💳 Pricing cards
+
 📩 Contact form
+
 🎨 Scroll animations using AOS
+
 ✨ Icons using Ionicons
 
 ---
